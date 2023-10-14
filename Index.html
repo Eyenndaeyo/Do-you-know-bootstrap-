@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./Asset/css/styles.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- navbar   -->
+    <nav class="navbar navbar-expand-lg bg-white shadow p-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">ELBRIZZY RESTAURANT
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#all">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special">Special</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#event">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chef">Chef</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            
+          </ul>
+          <a href="" class="btn btn-brand">Order Online</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero slider -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item text-center  vh-100 active slide-1">
+       <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h6 class="text-white">WELCOME TO ELBRIZZY RESTAUREANT</h6>
+            <H1 class="display-1 text-white">Enjoy Your Healthy
+              Delicious Food</H1>
+              <a href="" class="btn btn-brand">Book A Table</a>
+             
+
+          </div>
+        </div>
+       </div>
+        </div>
+
+        <div class="carousel-item text-center  vh-100 active slide-2">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO ELBRIZZY RESTAUREANT</h6>
+                <H1 class="display-1 text-white">Enjoy Your Healthy
+                  Delicious Food</H1>
+                   <a href="" class="btn btn-brand">Researvation</a>
+              </div>
+            </div>
+           </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- about -->
+    <section id="about">
+      <div class="container ">
+        <div class="row align-items-center gx-5 about-gap ">
+          <div class="col-lg-5 py-5">
+            <img src="./Asset/img/gallery-6.jpg" alt="">
+          </div>
+          <div class="col-lg-5 ">
+            <h1 class="text-center fw-bolder">ABOUT US</h1>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi commodi, accusamus illum, impedit fugit sed quisquam pariatur odio sapiente reiciendis. Veritatis, assumenda error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptas omnis placeat laborum distinctio, iste ducimus ullam eaque, mollitia tenetur voluptates illo amet fugit.</p>
+            <a href="" class="btn btn-brand"> Explore Our Menu</a>
+      
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- features section. (this is were the menu ofthe restaurant id found)  -->
+    <section id="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>EXPLORE OUR MENU</h1>
+            <p>We Have Best continental dishes for your perfect satisfaction</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All items</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast" aria-selected="true">Breakfast</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+          </li>
+          
+          
+        </ul>
+  
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/greek-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Greek Salad</h2>
+                    <p class="small">A traditional Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/spinach-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Spinach Salad</h2>
+                    <p class="small">Spinach is a leafy green flowering plant native to central and Western Asia. It is of the order Caryophyllales, family Amaranthaceae. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/lobster-roll.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lobster Roll</h2>
+                    <p class="small">Lobster roll is a dish native to New England, made of lobster meat served on a grilled hot dog–style bun. The filling contains butter, lemon juice,etc. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/caesar.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Caeser Salad</h2>
+                    <p class="small">Caesar salad is made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. The dressing is a mixture of olive oil, lemon juice, etc.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/mozzarella.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Mozzarella</h2>
+                    <p class="small">Mozzarella is delicious just as it is, or with a bit of salt and pepper, basil or fresh marjoram or oregano, and topped off with a good extra virgin olive oil</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/lobster-bisque.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lobster Bisque</h2>
+                    <p class="small">The main ingredient is shellfish like lobster, crab, shrimp, or crayfish, but occasionally other ingredients such as tomato, pumpkin or chicken are used.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/menu-item-4.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lemony Mussels</h2>
+                    <p class="small">The best side dishes to serve with mussels are crusty bread, garlic bread, corn on the cob, French fries, green salad, coleslaw, etc. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/greek-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Greek Salad</h2>
+                    <p class="small">A traditional Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/spinach-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Spinach Salad</h2>
+                    <p class="small">Spinach is a leafy green flowering plant native to central and Western Asia. It is of the order Caryophyllales, family Amaranthaceae. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/greek-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Greek Salad</h2>
+                    <p class="small">A traditional Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/menu-item-4.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lemony Mussels</h2>
+                    <p class="small">The best side dishes to serve with mussels are crusty bread, garlic bread, corn on the cob, French fries, green salad, coleslaw, etc. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/lobster-bisque.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lobster Bisque</h2>
+                    <p class="small">The main ingredient is shellfish like lobster, crab, shrimp, or crayfish, but occasionally other ingredients such as tomato, pumpkin or chicken are used.</p>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/bread-barrel.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Spinach Salad</h2>
+                    <p class="small">Spinach is a leafy green flowering plant native to central and Western Asia. It is of the order Caryophyllales, family Amaranthaceae. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/specials-3.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Greek Salad</h2>
+                    <p class="small">A traditional Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/menu-item-6.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lemony Mussels</h2>
+                    <p class="small">The best side dishes to serve with mussels are crusty bread, garlic bread, corn on the cob, French fries, green salad, coleslaw, etc. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/specials-1.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lobster Bisque</h2>
+                    <p class="small">The main ingredient is shellfish like lobster, crab, shrimp, or crayfish, but occasionally other ingredients such as tomato, pumpkin or chicken are used.</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/mozzarella.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Mozzarella</h2>
+                    <p class="small">Mozzarella is delicious just as it is, or with a bit of salt and pepper, basil or fresh marjoram or oregano, and topped off with a good extra virgin olive oil</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/lobster-bisque.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lobster Bisque</h2>
+                    <p class="small">The main ingredient is shellfish like lobster, crab, shrimp, or crayfish, but occasionally other ingredients such as tomato, pumpkin or chicken are used.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/menu-item-4.png" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Lemony Mussels</h2>
+                    <p class="small">The best side dishes to serve with mussels are crusty bread, garlic bread, corn on the cob, French fries, green salad, coleslaw, etc. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white">
+                  <img src="./Asset/img/greek-salad.jpg" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>
+                        Rated(8.7)
+                      </span>
+                      <span class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </span>
+                    </div>
+                    <h2 class="mt-1 mb-2">Greek Salad</h2>
+                    <p class="small">A traditional Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial -->
+    <section id="testimonial" class="bg-cover" >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 intro-text">
+            <h4 class="text-white"> TESTIMONIALS</h4>
+            <p class="text-white">WHAT ARE THEY SAYING ABOUT US</p>
+          </div>
+        </div>
+        <div id="testimonialslider" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialslider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonialslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#testimonialslider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <div class="quote-icon"> <i class="bi bi-quote"></i></div>
+                    <p class="mb-0 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus ab laboriosam facilis voluptatem, debitis similique, delectus cumque atque libero dolorem vel nisi explicabo omnis, quos enim accusantium aperiam animi officia. Odio!</p>
+
+                    <div class="person">
+                      <img src="./Asset/img/testimonials-1.jpg" alt="">
+                      <h4>JOHN DUKE</h4>
+                      <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col lg-8">
+                  <div class="review bg-white text-center">
+                    <div class="quote-icon"> <i class="bi bi-quote"></i></div>
+                    <p class="mb-0 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus ab laboriosam facilis voluptatem, debitis similique, delectus cumque atque libero dolorem vel nisi explicabo omnis, quos enim accusantium aperiam animi officia. Odio!</p>
+
+                    <div class="person">
+                      <img src="./Asset/img/testimonials-1.jpg" alt="">
+                      <h4>JOHN DUKE</h4>
+                      <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <div class="quote-icon"> <i class="bi bi-quote"></i></div>
+                    <p class="mb-0 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus ab laboriosam facilis voluptatem, debitis similique, delectus cumque atque libero dolorem vel nisi explicabo omnis, quos enim accusantium aperiam animi officia. Odio!</p>
+
+                    <div class="person">
+                      <img src="./Asset/img/testimonials-1.jpg" alt="">
+                      <h4>JOHN DUKE</h4>
+                      <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
